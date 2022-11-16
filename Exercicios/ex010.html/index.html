@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <style>
+        body{
+            font: normal 14.5pt arial;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a h="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+<!--Nesse parágrafo usei a tag <a> para criar ancora, ou seja, permitir abertura de um link para outro site; e dentro da tag <a> usei dois parametros para que a url não sobreponha meu site. Os parametros usados foram target="_blank" e rel="external"-->
+
+    <p>Você também pode acessar o meu <a hrel="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no Youtube</a></p> <!--Já aqui eu fiz a mesma coisa que acima, porém sem usar os parametros, ou seja, a URL sobrepõe meu site. -->
+     
+    <h1>Usando links internos</h1>
+    <p>Está é a primeira página do meu site, se você quiser, pode acessar também a minha <a hrel="Pag002.html" rel="next">segunda página</a></p>
+     <!--Aqui eu criei um link interno usando a mesma tag <a> como acima, porém aqui ao invés de usar um link externo, eu enviei para uma outra página dentro da minha pasta do meu computador. Para fazer isso eu apertei control + space bar e selecionei o arquivo da "página que quero linkar"-->
+
+        <p>Você também pode acessar a minha <a hrel="Noticias/pag003.html">página de noticias</a></p>
+
+        <h1>Links para DOWNLOAD</h1>
+
+        <ul>
+            <li><a hrel="Livro/PDF - Ebook petiscos low carb.pdf" type="application/pdf" download="Livro/PDF - Ebook petiscos low carb.pdf" type="application/pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+            <!--Aqui eu usei dentro da tag <a> o parametro download="" para o PDF ser baixado e não apenas aberto, e usei o parametro type="application/pdf" para mostrar o tipo de arquivo-->
+
+            <li><a hrel="Livro/PDF - Ebook petiscos low carb.zip" download="Livro/PDF - Ebook petiscos low carb.zip" type="application/zip">Livro compactado em ZIP</a></li>
+            <!--Aqui eu coloquei uma ancora <a> e dentro usei 2 parametros:
+
+                Download=" " 
+
+            para que o arquivo fosse baixado e não apenas aberto. 
+
+            E o midia type:
+                 
+                type="application/zip" 
+                 
+            para especificar que o formato do arquivo é "zipado" -->
+            <p>
+                <a href="Livro/PDF - Ebook petiscos low carb.zip" download="Livro/PDF - Ebook petiscos low carb.zip" rel="application/zip" >Baixe aqui</a> Blz? :)
+            </p>
+        </ul>
+</body>
+</html>
