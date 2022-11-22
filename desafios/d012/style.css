@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: font-family: 'Passion One', cursive;
+    --font2: font-family: 'Sriracha', cursive;
+    --font3: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header p, a {
+    font-style: normal;
+    font-size: 1.2em ;
+}
+
+h1 {
+    font-family: var(--font1);
+    font-size: 4em;
+
+}
+
+p {
+    font-family: var(--font2);
+    font-size: 1.5em;
+    text-indent: 25px;
+    margin: 12px;
+    font-style: italic;
+    
+}
+
+
+.normal {
+    margin-top: 50px;
+    
+
+}
+
+.normalp1 {
+    color: black;
+    padding-top: 10px;
+    margin: 12px;
+    text-indent: 25px;
+    
+}
+
+
+.imagem {
+    position: ;
+    
+}
+
+
+#img01 {
+    margin-top: 50px;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 490px;
+    
+}
+
+
+#img01 p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.443);
+    color: white;
+    margin: 10px;
+    margin-left: 25px;
+    text-indent: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 28px;
+    height: 380px;
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 490px;
+
+
+}
+
+#img02 p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.443);
+    color: white;
+    margin: 10px;
+    margin-left: 25px;
+    text-indent: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 28px;
+    height: 380px;
+}
+
+
+
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer p {
+    text-align: center;
+    font-style: normal;
+    margin-top: 30px;
+
+}
+
+
+
